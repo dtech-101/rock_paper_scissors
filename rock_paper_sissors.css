@@ -1,0 +1,75 @@
+body{
+  background-image: url("rockpaperscissors5.jpg");
+  background-size: auto;
+  background-color: black;
+  text-align: center;
+}
+#rock{
+  cursor:pointer;
+  background-size: cover;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-top: 15%;
+  transition: all 0.3s;
+}
+#rock:hover{transform: scale(1.1);}
+#paper
+{
+  cursor:pointer;
+  background-size: cover;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-top: 15%;
+  border: solid black;
+  transition: all 0.3s;
+}
+#paper:hover{transform: scale(1.1);}
+#scissors
+{
+  cursor:pointer;
+  background-size: cover;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-top: 15%;
+  border: solid black;
+  transition: all 0.3s;
+}
+#scissors:hover{transform: scale(1.1);}
+#message
+{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Eras ITC;
+  color: grey;
+}
+#player-point{
+  color: grey;
+  font-size: 30px;
+  font-family: Eras ITC;
+  font-weight: bold;
+}
+#com-point
+{
+  color: grey;
+  font-size: 30px;
+  font-family: Eras ITC;
+  font-weight: bold;
+}
+#twoPlayer
+{
+  float:left;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+}
